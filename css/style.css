@@ -1,0 +1,184 @@
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  background-color:lightblue;
+  color:#FFF;
+}
+section{
+  text-align:center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+.container{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+ display: flex;
+ align-items: center;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.lupa{
+  display: flex;
+  align-items: center;
+}
+nav ul, nav li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: 9px;
+}
+nav .active, nav a:hover{
+  background-color: #588157;
+  color:#FFFF
+}
+.footer #button{
+    background-image: url('../css/images/ecologia.png');
+    height: 950px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+	width:50px;
+	height:50px;
+	border: #30b915 3px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #3A3A3A 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+	background: #3A3A3A;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+#rodape{
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+#header-sroll {
+  position:fixed;
+  height: 150px;
+  background:#FFF;
+  left:0;
+  top:0;
+  float:left;
+  width:100%;
+  -ms-transition:     all 0.3s ease-out;
+  -moz-transition:    all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition:      all 0.3s ease-out;
+  transition:         all 0.3s ease-out;
+}
+#header-sroll h1 {
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  line-height: 50px;
+   -ms-transition:    all 0.3s ease-out;
+  -moz-transition:    all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition:      all 0.3s ease-out;
+  transition:         all 0.3s ease-out;
+}
+#header-sroll.small {
+  height: 70px;
+  line-height: 35px;
+}
+#header-sroll.small h1{
+  height: 70px;
+  line-height: 35px;
+  font-size: 25px;
+}
+.redes{
+ 
+  display: flex;
+  align-items: center;
+}
